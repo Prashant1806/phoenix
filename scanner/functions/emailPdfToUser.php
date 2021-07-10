@@ -3,7 +3,7 @@
 // PhoenixScan
 // - Web Application Vulnerability Scanning Software
 //
-// Copyright (C) 2021 Arjun Goel (PhoenixScan@gmail.com)
+// Copyright (C) 2021 Arjun Goel (phoenixwebscan@gmail.com)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -49,7 +49,7 @@
 require_once('databaseFunctions.php');
 require_once('../classes/Logger.php');
 
-emailPdfToUser('/../reports/Test_101.pdf', 'Dermot', 'youremail@hotmail.com',101);
+emailPdfToUser('/../reports/Test_101.pdf', 'Dermot', 'phoenixwebscan@gmail.com',101);
 */
 
 function emailPdfToUser($fileName, $username, $email, $testId)
